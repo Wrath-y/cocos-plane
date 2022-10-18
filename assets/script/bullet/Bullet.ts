@@ -5,7 +5,7 @@ const OUTOFRANGE = 50
 @ccclass('Bullet')
 export class Bullet extends Component {
     @property
-    private bulletSpeed: number = 1
+    public bulletSpeed: number = 1
 
     start() {
 
